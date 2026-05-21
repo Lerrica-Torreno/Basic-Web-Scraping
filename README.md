@@ -17,5 +17,12 @@ This is a Laboratory Work #1 in System Fundamentals that scrapes the data in Sta
 # Setup 
 Create a file named `WebScraper.py` in the same directory as your `starlink_data.json` file and paste the following implementation code
 
+# Setup for JSON File 
+1. Navigate to the  subscription section of your Starlink account portal.
+2. Right-click anywhere on the page and select **Inspect**.
+3. Click on the **Network** tab at the top of the Developer Tools panel and select the **Fetch/XHR** filter.
+4. Refresh the page, locate the network request containing the `annotated` data structure, and copy the entire text from the **Response** tab.
+5. Open your project folder in VS Code, create a new file named `starlink_data.json`, and paste the copied response data directly into it.
+   
 # Output 
 The output would be a csv file (starlink_daily_usage.csv) that has 2 columns, namely the date and the data usage 
