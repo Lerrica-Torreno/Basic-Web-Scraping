@@ -1,2 +1,2 @@
 # Basic-Web-Scraping
-Laboratory Work #1 in System Fundamentals 
+This is a  Laboratory Work #1 in System Fundamentals
